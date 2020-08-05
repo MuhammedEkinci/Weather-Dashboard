@@ -27,3 +27,26 @@ h1 {
 }
 /*--------------end-----------------*/
 
+/*styling for current city weather display*/
+.city-display {
+    width: 100%;
+    border: 1px solid #eceff1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
+    rgba(60, 64, 67, 0.15) 0 1px 3px 1px;
+    padding: 10px;
+}
+/*----------end------------*/
+
+
+/*-----future weather forecast styling*/
+#future-weather-container {
+    width: 100%;
+    padding: 10px;
+}
+
+.future-info {
+    background-color: rgb(98, 129, 231);
+    color: white;
+    box-shadow: 0 0 5px 2px;
+    margin: 5px;
+}
