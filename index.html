@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="us-en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X_UA-Compatible" content="ie=edge">
+        <title>Weather Dashboard</title>
+
+        <!--link to bootstrap css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!--google font link-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header class="title-header container-fluid">
+            <h1 id="page-title">Weather Dashboard</h1>
+        </header>
+
+        <div class="row">
+            <!--city search bar-->
+            <div class="col-md-4 rounded city-container">
+                <h3>Search for A City:</h3>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="button-addon2" id="city-search">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button" id="search-btn button-addon2">Search</button>
+                    </div>
+                </div>
+
+                <!--city buttons-->
+                <div class="col-12" id="city-button-container">
+                    <button type="button" class="btn city-btn">Austin</button>
+                    <button type="button" class="btn city-btn">Chicago</button>
+                    <button type="button" class="btn city-btn">New York</button>
+                    <button type="button" class="btn city-btn">Orlando</button>
+                    <button type="button" class="btn city-btn">San Francisco</button>
+                    <button type="button" class="btn city-btn">Seattle</button>
+                    <button type="button" class="btn city-btn">Denver</button>
+                    <button type="button" class="btn city-btn">Atlanta</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--bootstrap link-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!--javascript link-->
+        <script src="javascript.js"></script>
+    </body>
+</html>
