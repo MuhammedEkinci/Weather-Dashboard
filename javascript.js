@@ -138,6 +138,7 @@ loadPage();
 //when search button is clicked
 $(".search-btn").click( function(event) {
     event.preventDefault();
+    $("#city-button-container").empty();
 
     let cityName = $(".city-search").val();
 
