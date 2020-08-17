@@ -28,89 +28,32 @@
                 <div class="col-md-4 rounded city-container">
                     <h3>Search for A City:</h3>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="button-addon2" id="city-search">
+                        <input type="text" class="city-search form-control" placeholder="City" aria-label="City" aria-describedby="button-addon2">
                         <div class="input-group-append">
                           <button class="search-btn btn btn-primary" type="button" id="button-addon2">Search</button>
                         </div>
                     </div>
     
-                    <!--city buttons-->
+                    <!--searched city buttons-->
                     <div class="col-12" id="city-button-container">
-                        <button type="button" class="btn city-btn"></button>
-                        <button type="button" class="btn city-btn"></button>
-                        <button type="button" class="btn city-btn"> </button>
-                        <button type="button" class="btn city-btn"></button>
-                        <button type="button" class="btn city-btn"> </button>
-                        <button type="button" class="btn city-btn"></button>
-                        <button type="button" class="btn city-btn"></button>
-                        <button type="button" class="btn city-btn"></button>
+
                     </div>
                 </div>
     
                 <!--Current Weather display-->
                 <div class="col-md-7">
                     <div class="city-display">
-                        <h2 id="city-name">City name here (mm/dd/yyyy) weather icon</h2>
+                        
+                    </div>
 
-                        <!--city-info-->
-                        <div class="current-city-info">
-                            Temperature: 
-                            <span id="temperature">Temp</span>
-                            <br>
+                    <div id="uv-index">
 
-                            Humididty: 
-                            <span id="humididty">Humididty</span>
-                            <br>
-
-                            Wind Speed: 
-                            <span id="wind-speed">Speed</span>
-                            <br>
-
-                            UV index: 
-                            <span id="uv-index">UV</span>
-                        </div>
                     </div>
 
                     <!--future weather forecast display-->
+                    <h2>Future Forecast:</h2>
                     <div class="row" id="future-weather-container">
-                        <div class="col-md-12">
-                            <h2>5 Day Forecast:</h2>
-                        </div>
-
-                        <div class="future-info card col-sm-5 col-md-2">
-                            <div class="forecast-date">date</div>
-                            <img class="forecast-img">
-                            <div class="forecaste-temp">temp</div>
-                            <div class="forecaste-humid">humid</div>
-                        </div>
-
-                        <div class="future-info card col-sm-5 col-md-2">
-                            <div class="forecast-date">date</div>
-                            <img class="forecast-img">
-                            <div class="forecaste-temp">temp</div>
-                            <div class="forecaste-humid">humid</div>
-                        </div>
-
-                        <div class="future-info card col-sm-5 col-md-2">
-                            <div class="forecast-date">date</div>
-                            <img class="forecast-img">
-                            <div class="forecaste-temp">temp</div>
-                            <div class="forecaste-humid">humid</div>
-                        </div>
-
-                        <div class="future-info card col-sm-5 col-md-2">
-                            <div class="forecast-date">date</div>
-                            <img class="forecast-img">
-                            <div class="forecaste-temp">temp</div>
-                            <div class="forecaste-humid">humid</div>
-                        </div>
-
-                        <div class="future-info card col-sm-5 col-md-2">
-                            <div class="forecast-date">date</div>
-                            <img class="forecast-img">
-                            <div class="forecaste-temp">temp</div>
-                            <div class="forecaste-humid">humid</div>
-                        </div>
+            
                     </div>
 
                 </div>
@@ -123,6 +66,7 @@
         <!--bootstrap link-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
 
         <!--javascript link-->
         <script src="javascript.js"></script>

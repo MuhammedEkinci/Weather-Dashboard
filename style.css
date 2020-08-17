@@ -50,3 +50,26 @@ h1 {
     box-shadow: 0 0 5px 2px;
     margin: 5px;
 }
+.uv.btn {
+    width: 50px;
+}
+
+.safe-uv {
+    background-color: green;
+}
+
+.warning-uv {
+    background-color: yellow;
+}
+
+.danger-uv {
+    background-color: orange;
+}
+
+.big-danger-uv {
+    background-color: red;
+}
+
+.panic-uv {
+    background-color: rebeccapurple;
+}
