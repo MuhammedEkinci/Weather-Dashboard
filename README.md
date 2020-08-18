@@ -5,4 +5,4 @@ This is a weather app that uses openweather.org's API to display the current wea
 
 ![](imgs/weatherApp.png)
 
-![](imgs/webApp.png)
+![](imgs/webbApp.png)
