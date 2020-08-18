@@ -138,7 +138,6 @@ loadPage();
 //when search button is clicked
 $(".search-btn").click( function(event) {
     event.preventDefault();
-    $("#city-button-container").empty();
 
     let cityName = $(".city-search").val();
 
@@ -146,9 +145,8 @@ $(".search-btn").click( function(event) {
     var cityArray = [];
     cityArray.push(cityName);
 
-    for(var i = 0; i < cityArray.length; i++) {
-        localStorage.setItem('city', JSON.stringify(cityArray));
-    }
+    localStorage.setItem('city', JSON.stringify(cityArray));
+    
     
 
     searchCity(cityName);
